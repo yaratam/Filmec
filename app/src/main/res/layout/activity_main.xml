@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/BaseColor">
+
+
+    <ImageView style="@style/Header"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="261dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/movie" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rating_strs"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Lorem"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="7dp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/book"
+        android:layout_marginTop="10dp"/>
+    <ImageView
+        android:layout_width="327dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/app_navigation"
+
+</LinearLayout>

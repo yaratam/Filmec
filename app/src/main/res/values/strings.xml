@@ -1,5 +1,16 @@
 <resources>
     <string name="app_name">Filmec</string>
     <string name="Lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non vulputate elit, sit amet vehicula nulla. Nullam bibendum, felis non suscipit convallis, lorem sapien aliquam nulla, nec molestie nisi turpis eget velit. Sed leo purus, congue sit amet aliquam tincidunt, facilisis id urna.</string>
+    <string name="logo">logo</string>
+    <string name="header">header</string>
+    <string name="books">books</string>
+    <string name="footer">footer</string>
+    <string name="stars">stars</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="trending_today">Trending Today</string>
+    <string name="recently_released">Recently Released</string>
+    <string name="search">search</string>
+    <string name="acc">acc</string>
 
 </resources>

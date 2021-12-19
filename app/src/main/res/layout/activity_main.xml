@@ -1,34 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
     android:orientation="vertical"
     android:background="@color/BaseColor">
 
 
-    <ImageView style="@style/Header"/>
+    <ImageView style="@style/Header"
+        android:contentDescription="@string/header" />
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="261dp"
         android:layout_marginTop="0dp"
-        android:background="@drawable/movie" />
+        android:background="@drawable/movie2"
+        android:contentDescription="@string/logo" />
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/rating_strs"
         android:layout_marginTop="15dp"
-        android:layout_marginLeft="10dp"
-        />
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/stars" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Lorem"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp"
         android:textColor="@color/white"
         android:textStyle="italic"
         android:textSize="20sp"
@@ -38,12 +37,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/book"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/books" />
+
     <ImageView
-        android:layout_width="327dp"
-        android:layout_height="85dp"
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="15dp"
         android:background="@drawable/app_navigation"
+        android:contentDescription="@string/bottom_sheet_behavior" />
+
 
 </LinearLayout>

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Filmec">
         <activity
+            android:name=".Animaciya"
+            android:exported="true" />
+        <activity
             android:name=".fourthActivity"
             android:exported="false" />
         <activity
